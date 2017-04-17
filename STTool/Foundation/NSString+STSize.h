@@ -12,7 +12,7 @@
 @interface NSString (STSize)
 
 - (CGSize)st_sizeWithFont:(UIFont *)font;
-- (CGSize)st_sizeWithMaxsize:(CGSize)size font:(UIFont *)font;
-- (CGSize)st_sizeWithMaxsize:(CGSize)size font:(UIFont *)font limitedLine:(NSUInteger)limitedLine;
+- (CGSize)st_sizeWithMaxSize:(CGSize)size font:(UIFont *)font;
+- (CGSize)st_sizeWithMaxSize:(CGSize)size font:(UIFont *)font limitedLine:(NSUInteger)limitedLine;
 
 @end

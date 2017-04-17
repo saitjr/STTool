@@ -11,6 +11,6 @@
 @interface UILabel (STSize)
 
 - (CGSize)st_size;
-- (CGSize)st_sizeWithMaxsize:(CGSize)size;
+- (CGSize)st_sizeWithMaxSize:(CGSize)size;
 
 @end

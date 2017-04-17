@@ -14,7 +14,7 @@
     return [self textRectForBounds:[UIScreen mainScreen].bounds limitedToNumberOfLines:1].size;
 }
 
-- (CGSize)st_sizeWithMaxsize:(CGSize)size {
+- (CGSize)st_sizeWithMaxSize:(CGSize)size {
     NSUInteger limitedLine = self.numberOfLines;
     return [self textRectForBounds:CGRectMake(0, 0, size.width, size.height) limitedToNumberOfLines:limitedLine].size;
 }

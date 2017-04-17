@@ -27,7 +27,7 @@ static UILabel *label = nil;
 - (CGSize)st_sizeWithMaxSize:(CGSize)size {
     @autoreleasepool {
         label.attributedText = self;
-        return [label st_sizeWithMaxsize:size];
+        return [label st_sizeWithMaxSize:size];
     }
 }
 
@@ -35,7 +35,7 @@ static UILabel *label = nil;
     @autoreleasepool {
         label.attributedText = self;
         label.numberOfLines = limitedLine;
-        return [label st_sizeWithMaxsize:size];
+        return [label st_sizeWithMaxSize:size];
     }
 }
 
