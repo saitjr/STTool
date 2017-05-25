@@ -18,25 +18,19 @@ static UILabel *label = nil;
 }
 
 - (CGSize)st_size {
-    @autoreleasepool {
-        label.attributedText = self;
-        return [label st_size];
-    }
+    label.attributedText = self;
+    return [label st_size];
 }
 
 - (CGSize)st_sizeWithMaxSize:(CGSize)size {
-    @autoreleasepool {
-        label.attributedText = self;
-        return [label st_sizeWithMaxSize:size];
-    }
+    label.attributedText = self;
+    return [label st_sizeWithMaxSize:size];
 }
 
 - (CGSize)st_sizeWithMaxSize:(CGSize)size limitedLine:(NSUInteger)limitedLine {
-    @autoreleasepool {
-        label.attributedText = self;
-        label.numberOfLines = limitedLine;
-        return [label st_sizeWithMaxSize:size];
-    }
+    label.attributedText = self;
+    label.numberOfLines = limitedLine;
+    return [label st_sizeWithMaxSize:size];
 }
 
 @end
